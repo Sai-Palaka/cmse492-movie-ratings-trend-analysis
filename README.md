@@ -11,6 +11,7 @@ This project analyzes trends in movie ratings over time to understand how differ
 - Visualize insights using graphs and charts
 
 ## Dataset
+This project uses a structured dataset loaded and analyzed using pandas in Python.
 The dataset includes movie-related information such as:
 - Title
 - Rating
@@ -26,10 +27,10 @@ The dataset includes movie-related information such as:
 - Jupyter Notebook
 
 ## Project Structure
-- data/ → raw datasets  
-- notebooks/ → analysis notebooks  
-- src/ → scripts or helper code  
-- results/ → graphs and outputs  
+- data/ : raw datasets  
+- notebooks/ : analysis notebooks  
+- src/ : helper scripts or functions  
+- results/ : graphs and outputs  
 
 ## How to Run
 1. Open the notebook in the notebooks/ folder
@@ -43,3 +44,6 @@ The dataset includes movie-related information such as:
 - Add more datasets
 - Build a prediction model for movie ratings
 - Improve visualizations
+
+## Validation
+- All analysis steps were checked by verifying dataset structure, confirming calculations, and visually inspecting generated plots for correctness.
